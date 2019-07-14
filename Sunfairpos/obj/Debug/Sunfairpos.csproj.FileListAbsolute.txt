@@ -1,0 +1,12 @@
+C:\Users\Acer\Desktop\Project\Sunfairpos\bin\Debug\Sunfairpos.exe.config
+C:\Users\Acer\Desktop\Project\Sunfairpos\bin\Debug\Sunfairpos.exe
+C:\Users\Acer\Desktop\Project\Sunfairpos\bin\Debug\Sunfairpos.pdb
+C:\Users\Acer\Desktop\Project\Sunfairpos\obj\Debug\Sunfairpos.csprojAssemblyReference.cache
+C:\Users\Acer\Desktop\Project\Sunfairpos\obj\Debug\Sunfairpos.Form1.resources
+C:\Users\Acer\Desktop\Project\Sunfairpos\obj\Debug\Sunfairpos.Properties.Resources.resources
+C:\Users\Acer\Desktop\Project\Sunfairpos\obj\Debug\Sunfairpos.csproj.GenerateResource.cache
+C:\Users\Acer\Desktop\Project\Sunfairpos\obj\Debug\Sunfairpos.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\Project\Sunfairpos\obj\Debug\Sunfairpos.exe
+C:\Users\Acer\Desktop\Project\Sunfairpos\obj\Debug\Sunfairpos.pdb
+C:\Users\Acer\Desktop\Project\Sunfairpos\obj\Debug\Sunfairpos.managebrands.resources
+C:\Users\Acer\Desktop\Project\Sunfairpos\obj\Debug\Sunfairpos.branddata.resources
