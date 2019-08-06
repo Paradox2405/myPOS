@@ -52,6 +52,18 @@
     <Compile Include="branddata.Designer.cs">
       <DependentUpon>branddata.cs</DependentUpon>
     </Compile>
+    <Compile Include="category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="category.Designer.cs">
+      <DependentUpon>category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="categorylists.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="categorylists.Designer.cs">
+      <DependentUpon>categorylists.cs</DependentUpon>
+    </Compile>
     <Compile Include="dbconnection.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -69,6 +81,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="branddata.resx">
       <DependentUpon>branddata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="category.resx">
+      <DependentUpon>category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="categorylists.resx">
+      <DependentUpon>categorylists.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

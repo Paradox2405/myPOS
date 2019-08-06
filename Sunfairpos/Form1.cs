@@ -39,5 +39,16 @@ namespace Sunfairpos
         {
 
         }
+
+        private void Lblcategory_Click(object sender, EventArgs e)
+        {
+            categorylists cat = new categorylists();
+            cat.TopLevel = false;
+            panel3.Controls.Add(cat);
+            cat.BringToFront();
+            cat.loadItems();
+            
+            cat.Show();
+        }
     }
 }

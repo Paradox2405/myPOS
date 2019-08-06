@@ -36,7 +36,7 @@
             this.lblrecords = new System.Windows.Forms.Button();
             this.lblsyssettings = new System.Windows.Forms.Button();
             this.btnbrand = new System.Windows.Forms.Button();
-            this.lblcategory = new System.Windows.Forms.Button();
+            this.btnCategory = new System.Windows.Forms.Button();
             this.lblproducts = new System.Windows.Forms.Button();
             this.lblsales = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -65,7 +65,7 @@
             this.panel2.Controls.Add(this.lblrecords);
             this.panel2.Controls.Add(this.lblsyssettings);
             this.panel2.Controls.Add(this.btnbrand);
-            this.panel2.Controls.Add(this.lblcategory);
+            this.panel2.Controls.Add(this.btnCategory);
             this.panel2.Controls.Add(this.lblproducts);
             this.panel2.Controls.Add(this.lblsales);
             this.panel2.Controls.Add(this.button1);
@@ -160,21 +160,22 @@
             this.btnbrand.UseVisualStyleBackColor = true;
             this.btnbrand.Click += new System.EventHandler(this.Btnbrand_Click);
             // 
-            // lblcategory
+            // btnCategory
             // 
-            this.lblcategory.FlatAppearance.BorderSize = 0;
-            this.lblcategory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblcategory.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.lblcategory.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.lblcategory.Image = ((System.Drawing.Image)(resources.GetObject("lblcategory.Image")));
-            this.lblcategory.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblcategory.Location = new System.Drawing.Point(16, 285);
-            this.lblcategory.Name = "lblcategory";
-            this.lblcategory.Size = new System.Drawing.Size(232, 44);
-            this.lblcategory.TabIndex = 6;
-            this.lblcategory.Text = "Manage Category";
-            this.lblcategory.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.lblcategory.UseVisualStyleBackColor = true;
+            this.btnCategory.FlatAppearance.BorderSize = 0;
+            this.btnCategory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCategory.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.btnCategory.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.btnCategory.Image = ((System.Drawing.Image)(resources.GetObject("btnCategory.Image")));
+            this.btnCategory.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCategory.Location = new System.Drawing.Point(16, 285);
+            this.btnCategory.Name = "btnCategory";
+            this.btnCategory.Size = new System.Drawing.Size(232, 44);
+            this.btnCategory.TabIndex = 6;
+            this.btnCategory.Text = "Manage Category";
+            this.btnCategory.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCategory.UseVisualStyleBackColor = true;
+            this.btnCategory.Click += new System.EventHandler(this.Lblcategory_Click);
             // 
             // lblproducts
             // 
@@ -196,7 +197,7 @@
             // 
             this.lblsales.FlatAppearance.BorderSize = 0;
             this.lblsales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblsales.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblsales.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblsales.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.lblsales.Image = ((System.Drawing.Image)(resources.GetObject("lblsales.Image")));
             this.lblsales.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -204,7 +205,7 @@
             this.lblsales.Name = "lblsales";
             this.lblsales.Size = new System.Drawing.Size(232, 44);
             this.lblsales.TabIndex = 4;
-            this.lblsales.Text = "Manage Sales";
+            this.lblsales.Text = "Counter Billing";
             this.lblsales.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.lblsales.UseVisualStyleBackColor = true;
             // 
@@ -287,7 +288,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnbrand;
-        private System.Windows.Forms.Button lblcategory;
+        private System.Windows.Forms.Button btnCategory;
         private System.Windows.Forms.Button lblproducts;
         private System.Windows.Forms.Button lblsales;
         private System.Windows.Forms.Button button1;

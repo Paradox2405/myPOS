@@ -64,5 +64,40 @@ namespace Sunfairpos
         {
 
         }
+
+        private void PictureBox1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Btnupdate_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if(MessageBox.Show("Are You sure you want to update this record? ","update",MessageBoxButtons.YesNo,MessageBoxIcon.Question)==DialogResult.Yes)
+                {
+                    conn.Open();
+                    comm = new SqlCommand("UPDATE tblbrand SET brand =@brand where id like'" + lblID.Text + "'", conn);
+                    comm.Parameters.AddWithValue("@brand", txtbrand.Text);
+                    comm.ExecuteNonQuery();
+                    conn.Close();
+                    MessageBox.Show("brand has been updated");
+                    clear();
+                    frmlist.loadrecords();
+                    this.Dispose();
+                }
+                
+                    
+            }
+            catch(Exception ex)
+            {
+
+            }
+        }
     }
 }
